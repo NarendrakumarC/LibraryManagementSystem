@@ -43,4 +43,16 @@ public class LibraryManagementSystem {
         }
         return null;
     }
+
+    public void displayAllBooks() {
+        for (Book book : bookInventory) {
+            System.out.println(book);
+        }
+    }
+
+    public void displayRegiseteredUser() {
+        for (User user : registeredUsers) {
+            System.out.println(user);
+        }
+    }
 }

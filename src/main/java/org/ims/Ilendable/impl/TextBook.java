@@ -16,7 +16,7 @@ public class TextBook extends Book{
     }
 
     public String toString() {
-        return "TextBook edition :"+this.edition+"Subject :"+this.subject;
+        return "TextBook edition :"+this.edition+"\nSubject :"+this.subject;
     }
 
 }

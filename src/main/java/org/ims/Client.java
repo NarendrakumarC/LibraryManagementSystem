@@ -43,8 +43,12 @@ public class Client {
         }else {
             System.out.println("Book is already lend");
         }
-
         text.returnBook(member1);
+
+        System.out.println("===========Display Books Info ================");
+        lms.displayAllBooks();
+        System.out.println("=============Display Registered User Info ============");
+        lms.displayRegiseteredUser();
 
     }
 }
